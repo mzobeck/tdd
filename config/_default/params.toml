@@ -100,7 +100,7 @@ address = {street = "", city = "", region = "TX", postcode = "", country = "Unit
 coordinates = {latitude = "", longitude = ""}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -167,7 +167,7 @@ copyright_license = {enable = true, allow_derivatives = false, share_alike = tru
 link_authors = true
 
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
-abstract_length = 135
+abstract_length = 136
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
@@ -281,9 +281,10 @@ plugins_js  = []
   netlify_cms = true
 
 ############################
-<<<<<<< HEAD
-## Icon Pack 
-=======
+
 ## Icon Pack Extensions
 ############################
-[icon.pa
+[icon.pack]
+  ai = false
+
+##Nothing here 
