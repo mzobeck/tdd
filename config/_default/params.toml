@@ -281,7 +281,4 @@ plugins_js  = []
   netlify_cms = true
 
 ############################
-## Icon Pack Extensions
-############################
-[icon.pack]
-  ai = false  # Ac
+## Icon Pack 
