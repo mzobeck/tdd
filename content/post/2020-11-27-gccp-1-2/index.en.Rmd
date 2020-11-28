@@ -82,9 +82,9 @@ grid.raster(img)
 <center>
 [The following originally appeared on my podcast about global PHO - Global Health and Childhood Cancer](https://www.ghccpod.com/gccp-edge1/)
 </center>
-
+<br>
   
-This is part two of a three part essay about the global burden of childhood cancer. (If you haven't read the first part about the mber of new cases per year)[], you may want to read that first.   
+This is part two of a three part essay about the global burden of childhood cancer. If you haven't read from the beginning, you may want to start from [part 1](/2020/11/27/gccp1-1/). You can find [part 3 here](/2020/11/27/gccp1-3/).
   
 ---  
   
@@ -356,3 +356,9 @@ If that wasn’t enough, there is actually a further twist to the story. The est
 
 As you can see, the GPO community has come a long way in quantifying incident cancer cases and 5-year survival, and the story the numbers tell is grim. However, there is another part of the story that needs to be told, that of measuring disease burden from the perspective of the suffering it causes and the years of life it steals from its victims.  
 
+  
+---
+  
+Continue reading:   
+[Part 3](/2020/11/27/gccp1-3/)    
+[Subscribe to my podcast about global PHO at GHCCpod.com](www.ghccpod.com)  

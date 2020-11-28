@@ -82,9 +82,10 @@ grid.raster(img)
 <center>
 [The following originally appeared on my podcast about global PHO - Global Health and Childhood Cancer](https://www.ghccpod.com/gccp-edge1/)
 </center>
-
+<br>  
   
-This is part three of a three part essay about the global burden of childhood cancer. (If you haven't read the first part about the mber of new cases per year)[], you may want to read that first.   
+  
+This is part three of a three part essay about the global burden of childhood cancer. If you haven't read from the beginning, you may want to start from [part 1](/2020/11/27/gccp1-1/) or check out [part 2](/2020/11/27/gccp1-2/) if you missed that.
   
 ---  
 
@@ -471,6 +472,8 @@ This exploration of the burden of disease is the first edge in the childhood can
 1. 	Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Atun R. Estimating the total incidence of global childhood cancer: a simulation-based analysis. The Lancet Oncology. 2019;20(4):483-493.
 2. 	Ward ZJ, Yeh JM, Bhakta N, Frazier AL, Girardi F, Atun R. Global childhood cancer survival estimates and priority-setting: a simulation-based analysis. The Lancet Oncology. 2019.
 3. 	Force LM, Abdollahpour I, Advani SM, et al. The global burden of childhood and adolescent cancer in 2017: an analysis of the Global Burden of Disease Study 2017. The Lancet Oncology. 2019;20(9):1211-1225.
-
-### [Return to GHCCpod.com](www.ghccpod.com)
+  
+---    
+  
+[Subscribe to my podcast about global PHO at GHCCpod.com](www.ghccpod.com)
   

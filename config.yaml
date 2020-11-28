@@ -1,6 +1,6 @@
 theme: starter-academic
 title: The Doctor's Dialectic
-baseurl: /
+baseurl: https://www.thedoctorsdialectic.com
 copyright: ''
 enableGitInfo: no
 defaultContentLanguage: en

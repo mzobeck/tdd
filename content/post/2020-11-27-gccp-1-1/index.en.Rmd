@@ -53,9 +53,13 @@ grid.raster(img)
 ```
 <center>
 [The following originally appeared on my podcast about global PHO - Global Health and Childhood Cancer](https://www.ghccpod.com/gccp-edge1/)
-</center>
-
-
+</center>  
+<br>  
+  
+This is part one of a three part essay about the global burden of childhood cancer. You can find [part 2 here](/2020/11/27/gccp1-2/) and [part 3 here](/2020/11/27/gccp1-3/).
+  
+---
+  
 ### The Global Oncology Puzzle
 
 Have you ever completed a very difficult puzzle? Perhaps it was thousands of small pieces with colors that blend together, so that most of the pieces appeared very similar. Do you remember the overwhelmed feeling you had when you first dumped the pieces onto the table? "Good grief", you may have thought, "this puzzle is impossible." But, after the moment of defeat, you look at the picture on the box and see what the puzzle could be. Perhaps it will be an amazing waterfall, or city illuminated at night, or a basket full of kittens, and you know that at the end of all your hard work the pieces will come together, and the picture will be complete. So, thinking of that future day when you will feel the satisfying snap of the last piece falling into place, you sit down and get to work.
@@ -341,5 +345,10 @@ ggdraw(g) +
 </details>
 
 (Technical Note: it is worth pointing out that the numbers mentioned above and below are estimates and there is a degree of uncertainty about them that is not represented in the displayed data. The fact of the matter is that the lack of reliable data leaves a lot of questions. For instance, only 5% of kid in Africa live in countries with comprehensive registries. How do we decide what to do with the remaining 95%? The researches mentioned above had a specific modeling strategy to fill in the gaps, but that is not the only way. For instance the [International Incidence of Childhood Cancer (IICC3)](http://iicc.iarc.fr/about/iicc3_highlights.php) has a different methodolgy that produces slightly different numbers. For the purposes of this essay it is sufficient to acknowledge these difference, and continue exploring the estimates the Harvard researchers produced.).
-
-
+  
+--- 
+  
+Continue reading:    
+[Part 2](/2020/11/27/gccp1-2/)  
+[Part 3](/2020/11/27/gccp1-3/)    
+[Subscribe to my podcast about global PHO at GHCCpod.com](www.ghccpod.com)

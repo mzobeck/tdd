@@ -5,47 +5,51 @@ education:
   - course: Pediatric Hematology-Oncology Fellowship
     institution: Texas Children's Hospital/Baylor College of Medicine
     year: 2020
-  - course: General Pediatrics Residency
+  - course: General Pediatric Residency
     institution: Texas Children's Hospital/Baylor College of Medicine
     year: 2017
-  - course: MD
+  - course: Doctor of Medicine
     institution: Texas Tech El Paso Paul Foster School of Medicine
     year: 2014
-  - course: MPH
+  - course: Master of Publich Health
     institution: University of Texas at Houston School of Public Health
     year: 2014
-  - course: BA, Chemistry
+  - course: Bachelor of Arts, Chemistry
     institution: Texas A&M University
     year: 2010
 email: ''
 highlight_name: no
 interests:
-- Treatment-related toxicity prevention
 - Global pediatric hematology-oncology
 - Program monitoring and evaluation
 - Bayesian statistics
+- Cancer treatment toxicity prevention
 organizations:
 - name: Texas Children's Hospital & Baylor College of Medicine
   url: https://www.texaschildrens.org/find-a-doctor/mark-c-zobeck-md-mph 
-role: Instructor, Pediatric Hematology-Oncology
+role: Phsycian, Pediatric Hematology-Oncology
 social:
-- icon: envelope
-  icon_pack: fas
-  link: /#contact
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/markzobeck
-- icon: graduation-cap
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/mzobeck/tdd
+- icon: atlas
+  icon_pack: fas
+  link: https://www.cancerpointe.com
+- icon: broadcast-tower
+  icon_pack: fas
+  link: https://www.ghccpod.com
 superuser: yes
 bio: Mark is a physician who cares for children with cancers and blood disorders and writes about the intersection of medicine, global health, statistics, and philosophy. 
 ---
 
-I am a physician who cares for children with cancers and blood disorders around the world. I research how to predict and prevent treatment-related toxicities. I also work on leveraging technology to improve how medical care is delivered in low- and middle-income countries. I love writing about and teaching Bayesian statistics. I also have been known to muse about the ontological and metaphysical foundations of science. You'll find some weird fusion of all of these things on this blog. Welcome!
+I am a physician who cares for children with cancers and blood disorders around the world. One of my main areas of interest is how to leverage technology to improve how medical care is delivered in low- and middle-income countries. I also reserch how to predict and prevent treatment-related toxicities through statistical modeling. I love writing about and teaching Bayesian statistics. I'm also given to musing about the ontological, metaphysical, and epistemological foundations of science. You'll find some weird fusion of all of these things on this blog. Welcome!  
+<br> 
+<p style="font-size:15px">Obligatory disclaimers:
+<br>
+1. Nothing you read hear constitutes medical advice. For medical questions, please consult your doctor.  
+<br>
+2. All views expressed are my own and do not represenet the views of my employer or any organizations with which  am affiliated.
+</p>
