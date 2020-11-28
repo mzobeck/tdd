@@ -25,6 +25,7 @@ permalinks:
   categories: /category/:slug/
   publication_types: /publication-type/:slug/
   tags: /tag/:slug/
+  post: /:year/:month/:day/:slug/
 outputs:
   home:
     - HTML
