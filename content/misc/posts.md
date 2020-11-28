@@ -25,7 +25,7 @@ subtitle = "Coming soon."
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = "BBC"
+    category = "Misc"
     publication_type = ""
     author = ""
     exclude_featured = false

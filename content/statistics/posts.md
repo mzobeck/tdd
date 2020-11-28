@@ -26,7 +26,7 @@ subtitle = "A biostatistics course designed specifically for clinicians who want
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = "BBC"
+    category = "Statistics"
     publication_type = ""
     author = ""
     exclude_featured = false
