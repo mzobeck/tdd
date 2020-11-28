@@ -93,11 +93,11 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+address = {street = "", city = "", region = "TX", postcode = "", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "", longitude = ""}
 
 # Directions for visitors to locate you.
 directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -161,7 +161,7 @@ sharing = true
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "Except as otherwise noted, this work is licensed under {license}, and code samples are licensed under the MIT License."}
+copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "Except as otherwise noted, this work is licensed under {license}, and code samples are licensed under the MIT License."}
 
 # Link authors to their profile page? (true/false)
 link_authors = true
@@ -281,4 +281,8 @@ plugins_js  = []
   netlify_cms = true
 
 ############################
+<<<<<<< HEAD
 ## Icon Pack 
+=======
+## Icon Pack Extensions
+###########################
