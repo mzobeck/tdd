@@ -1,7 +1,7 @@
 ---
 title: "The Global Childhood Cancer Puzzle - Edge 1.2"
 author: "Mark Zobeck"
-date: 2020-11-27T23:13:14-05:00
+date: 2020-11-27T02:13:14-05:00
 categories: ["Global PHO"]
 tags: ["Epidemiology", "Burden of disease", "Globl health"]
 slug: "gccp1-2"
@@ -356,4 +356,3 @@ If that wasn’t enough, there is actually a further twist to the story. The est
 
 As you can see, the GPO community has come a long way in quantifying incident cancer cases and 5-year survival, and the story the numbers tell is grim. However, there is another part of the story that needs to be told, that of measuring disease burden from the perspective of the suffering it causes and the years of life it steals from its victims.  
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
