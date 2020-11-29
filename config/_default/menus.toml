@@ -30,12 +30,12 @@
 
 [[main]]
   name = "GHCC Podcast"
-  url = "www.ghccpod.com"
+  url = "https://www.ghccpod.com"
   weight = 60
 
 [[main]]
   name = "POINTE"
-  url = "www.cancerpointe.com"
+  url = "https://www.cancerpointe.com"
   weight = 70
 
 
