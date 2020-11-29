@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Biostatistics for Busy Clinicians"
-subtitle = "A biostatistics course designed specifically for clinicians who want to improve their statistical knowledge but have very little time to spare!"
+title = "Statistics"
+subtitle = "There's nothing better than learning from data in the presence of uncertainty."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -26,7 +26,7 @@ subtitle = "A biostatistics course designed specifically for clinicians who want
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = "Statistics"
+    category = "Stats"
     publication_type = ""
     author = ""
     exclude_featured = false
