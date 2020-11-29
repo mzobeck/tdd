@@ -28,6 +28,12 @@
   url = "misc/"
   weight = 50
 
+[[main]]
+  name = "GHCC Podcast"
+  url = "www.ghccpod.com"
+  weight = 60
+
+
 #[[main]]
 #  name = "Projects"
 #  url = "#projects"
