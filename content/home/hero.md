@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "**Dialectic:**"
+title = "**Dialectic**"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
  hero_media = "tdd_logo1.png"
@@ -50,6 +50,8 @@ title = "**Dialectic:**"
 #[cta_note]
 #  label = '<a class="js-github-release" #href="https://sourcethemes.com/academic/updates" #data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
+
+---
 
 A method of examining and discussing opposing ideas in order to find the truth. 
 
