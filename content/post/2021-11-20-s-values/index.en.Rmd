@@ -8,7 +8,6 @@ tags: ["Statistics", "Reading the literature", "Thinking tools"]
 slug: "s-values"
 nocite: |
   @greenland2019, @rafi2020
-
 bibliography: references.bib
 ---
 
@@ -22,8 +21,9 @@ library(tidyverse)
 library(ggthemes)
 library(gt)
 library(plotly)
+library(kableExtra)
 # Settings
-theme_set(theme_minimal()+ 
+theme_set(theme_clean() +  
   theme(plot.background=element_blank()))
 
 svalue <- function(x,y) round(-log2(x), y)
@@ -61,8 +61,6 @@ I think one of the best things s-values show is that the difference between a "s
 
 Lets now consider the possible s-values you could get along the whole range of p-values from 0 to 1. The graph below demonstrates this relationship.
 
-<center>
-
 ```{r, fig.align = 'center'}
 s.tibble <- tibble(
   `p-value` = seq(0.001, 1, by = 0.001)
@@ -75,21 +73,18 @@ p <- ggplot(s.tibble, aes(`p-value`, `s-value`)) +
   scale_y_continuous(breaks = 1:10,
                      expand = expansion(mult = c(0, 0.05))) +
   geom_vline(xintercept = 0.05, color = "cornflowerblue") +
-  labs(x = "\nP-value", y = "S-value\n") +
-  theme_minimal()
+  labs(x = "\nP-value", y = "S-value\n") 
 
-ggplotly(p)
+p
 
 
 ```
-
-</center>
 
 We start with p-values on the x-axis and with a p-value of 1 on the left because it produces an s-value of 0. Arranging the graph this way demonstrates that evidence against the null hypothesis accumulates as p-values gets smaller. The blue line on the chart represents p=0.05. Notice how slowly the s-values rise over the interval from 1 to 0.25. In this range, an absolute difference of 0.75 on the probability scale corresponds to just 2 s-value units. Even though the *value* of the p-value varies quite a bit in this range, there just isn't much evidence against the null hypothesis contained in these numbers. On the right side of the graph you can see that evidence accumulates exponentially as the p-value gets smaller. Let's zoom in on that region in the graph below.
 
 <center>
 
-```{r}
+```{r, fig.align = 'center'}
 p2 <- ggplot(s.tibble, aes(`p-value`, `s-value`)) +
   geom_line() +
   scale_x_reverse(limits = c(0.1,0),
@@ -98,9 +93,9 @@ p2 <- ggplot(s.tibble, aes(`p-value`, `s-value`)) +
                      expand = expansion(mult = c(0, 0.05))) +
   geom_vline(xintercept = 0.05, color = "cornflowerblue")  +
   geom_hline(yintercept = -log2(0.05), color = "cornflowerblue") +
-  labs(x = "\nP-value", y = "S-value\n")
+  labs(x = "\nP-value", y = "S-value\n") 
 
-ggplotly(p2)
+p2
 ```
 
 </center>
@@ -111,13 +106,13 @@ Here we're starting on the left with a p-value of 0.1. I've added a blue horizon
 s.tibble.5 <- tibble(
   p = seq(0.01, 0.1, by = 0.01)
 ) %>% 
-  mutate(s = round(-log2(p), 2))
+  mutate(s= round(-log2(p), 2))
 
 s.tibble.5 %>% 
   arrange(desc(p)) %>% 
   gt() %>% 
   cols_label(p = md("**P-Value**"), 
-             s = md("**S-Value**"))
+             s = md("**S-Value**")) 
 ```
 
 The graph and table demonstrate that a 0.01 decrease in p-values starting from 0.10 still results in a relatively small incremental increase in s-values. Invoking coin flips again, 3.64 heads in a row with a fair coin (p=0.08) and 4.32 heads in a row (p=0.05) just don't feel very different. They both round to 4 heads in a row and that seems reasonable. So when I said "a relatively small increase", I meant relative to the scale of meaningful evidence against the null hypothesis. By the time the p-value is 0.01, the number of heads in a row round to 7, which does feel like it would be much more surprising to see if the coin was fair compared to 4 heads in a row.
@@ -138,7 +133,7 @@ s.tibble.disp %>%
   fmt_number(columns = p,
              n_sigfig = 1) %>% 
   fmt_number(columns = s,
-             decimals = 1)
+             decimals = 1) 
 
 ```
 
