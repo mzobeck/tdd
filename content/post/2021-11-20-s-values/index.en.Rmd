@@ -1,13 +1,11 @@
 ---
 title: "S-Values"
-subtitle: "Calibrate your intution about p-values"
+subtitle: "Calibrate your intuition about p-values"
 author: "Mark Zobeck"
 date: 2021-11-20
 categories: ["Stats"]
 tags: ["Statistics", "Reading the literature", "Thinking tools"]
 slug: "s-values"
-nocite: |
-  @greenland2019, @rafi2020
 bibliography: references.bib
 ---
 
@@ -27,8 +25,6 @@ theme_set(theme_clean() +
   theme(plot.background=element_blank()))
 
 svalue <- function(x,y) round(-log2(x), y)
-
-
 
 
 ```
@@ -150,6 +146,6 @@ This post defined s-values and discussed four important tasks that they accompli
 3.  S-values increase slowly over the range of p-values that surround the traditional cutoff values of p=0.05, demonstrating that p-value cutoffs are largely arbitrary and values in this range provide similar evidence against a null hypothesis.
 4.  S-values increase accelerates as p-values get smaller, demonstrating that evidence accumulates in small p-values, contrary to the naive intuition that small absolute differences on the probability scale when the values are small are not overly meaningful.
 
-I hope this discussion is helpful to calibrate your intuition about what p-values signify. See the references below if you want to learn more.
+I hope this discussion is helpful to calibrate your intuition about what p-values signify. See the references these references [@greenland2019; @rafi2020]
 
 ### References
