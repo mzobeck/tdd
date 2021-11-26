@@ -146,6 +146,6 @@ This post defined s-values and discussed four important tasks that they accompli
 3.  S-values increase slowly over the range of p-values that surround the traditional cutoff values of p=0.05, demonstrating that p-value cutoffs are largely arbitrary and values in this range provide similar evidence against a null hypothesis.
 4.  The increase in S-values will accelerate as p-values become smaller, demonstrating that evidence accumulates in small p-values, contrary to the naive intuition that small absolute differences on the probability scale when the values are small are not overly meaningful.
 
-I hope this discussion is helpful to calibrate your intuition about what p-values signify. See these references below to learn more \[@greenland2019; @rafi2020\].
+I hope this discussion is helpful to calibrate your intuition about what p-values signify. See these references below to learn more [@rafi2020a; @greenland2019a].
 
 ### References
