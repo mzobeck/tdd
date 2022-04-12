@@ -1,0 +1,50 @@
+---
+title: "Stochastic beasts and how to slay them - Part 2"
+subtitle: "Radical epistemic uncertainty does not have to paralyze you."
+author: "Mark Zobeck"
+date: 2022-03-26
+categories: ["Confident Uncertainty"]
+tags: ["Stochasticism"]
+slug: "stochastic-beasts-2"
+---
+
+```{r, message = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+
+library(tidyverse)
+library(ggthemes)
+library(gt)
+library(plotly)
+library(kableExtra)
+# Settings
+theme_set(theme_clean() +  
+  theme(plot.background=element_blank()))
+
+```
+
+[In my last essay](https://www.thedoctorsdialectic.com/2022/03/25/stochastic-beasts-1/), I discussed the nature of radical uncertainty, which are events that are completely unpredictable and often extremely consequential for your future. I focused on what to do in the presence of radical aleatory uncertainty, where even though the rareness is describable mathematically its occurrence is not predictable.
+
+Today we will focus on an even more formidable stochastic beast.
+
+## Radical epistemic uncertainty 
+
+In May of 2011, President Obama had to make a call whether to commit Navy SEALS to a night raid on a compound in Pakistan in search of Osama Bin Laden. US intelligence thought they had identified where bin Laden was hiding, but they weren't certain. Advisors offered their confidence levels for how likely he was to be in the compound, which ranged from 10% to 90%. Obama, seemingly exasperated, responded that he had to view the decision as a coin flip, as a 50-50 chance of finding him.
+
+Obama perceived, rightly, that there's no way to precisely quantify the probability that bin Laden was in the compound. Despite the best efforts and vast resources of the US government to analyze, model, and quantify the probability of his presence, Obama only had enough evidence to know he didn't know the answer.
+
+This is the nature of radical epistemic uncertainty. Even if you try to reduce it, the answer at the end of your inquiry is "**I don't know**". There is no path available to humans with our limited cognitive equipment to know the answer, despite our sophisticated technology and fancy scientific knowledge.
+
+## Slaying epistemic monsters
+
+So how do we avoid being paralyzed with indecision when the answer is "I don't know"? Let us take a page from Obama's playbook. Despite the uncertainty, he still made the call.
+
+First, he considered the consequences of missing this opportunity. Maybe it would be another decade before they would find him again. Maybe it would cause a foreign relations crisis to conduct a military operation in Pakistan. These and many other **consequences had to be weighed against each other** to decide if it was worth sending in the Seals.
+
+Second, you'll notice he didn't say, "I have no idea". He did, in fact, have an idea. Since he knew it was a coin toss, that means he knew there was neither a very low nor very high likelihood of bin Laden's presence in the compound. Although he did not have precise information, Obama had what I call a "**probability blob**". The probability was somewhere around 50%, even if he didn't know exactly where. Doctors speak in probability blobs all the time - "this diagnosis is extremely unlikely/doubtful/probable/highly likely/etc." To make a decision, you need at least a probability blob to inform your estimation of costs for the decision. Thankfully, for many situations with radical epistemic uncertainty, describing at a probability blob is still possible.
+
+Lastly, we should make the not too surprising observation that the outcome is uncertain, which means **we have the opportunity to shape the future**. Something is radically epistemically uncertain because there is a complex or chaotic process that produces it. Although we cannot predict the outcome, we can still impact its functioning to shape its results.
+
+To slay this beast, consider the consequences, find your best probability blob, and believe you can be part of shaping the outcome, and you'll find the answer "I don't know" does not have to mean "I can't decide".
