@@ -15,11 +15,11 @@
   parent: "posts"
   weight = 10
 
-[[main]]
-  name = "Global Health & Childhood Cancer"
-  url = "ghcc/"
-  parent: "posts"
-  weight = 20
+#[[main]]
+#  name = "Global Health & Childhood Cancer"
+#  url = "ghcc/"
+#  parent: "posts"
+#  weight = 20
   
 [[main]]
   name = "Data Science + Global Health"
