@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Data Science + Global Health"
-subtitle = "Harnessing data science to deliver better care in resource-constrained settings"
+subtitle = "Harnessing data science to deliver better care in resource-constrained settings."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

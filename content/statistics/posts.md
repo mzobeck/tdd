@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Statistics"
-subtitle = "There's nothing better than learning from data in the presence of uncertainty."
+title = "Statistics & Heuristics"
+subtitle = "Statistical thinking for everyday life."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -26,7 +26,7 @@ subtitle = "There's nothing better than learning from data in the presence of un
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = "Stats"
+    category = "Statistics & Heuristics""
     publication_type = ""
     author = ""
     exclude_featured = false
