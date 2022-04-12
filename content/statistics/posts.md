@@ -26,7 +26,7 @@ subtitle = "Statistical thinking for everyday life."
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = "Statistics & Heuristics""
+    category = "Statistics & Heuristics"
     publication_type = ""
     author = ""
     exclude_featured = false
