@@ -3,13 +3,12 @@ title: "The Winner's Curse"
 subtitle: "Losing while winning"
 author: "Mark Zobeck"
 date: 2020-12-04
-categories: ["Stats"]
+categories: ["Statistics & Heuristics"]
 tags: ["Statistics", "Reading the literature", "Thinking tools"]
 slug: "winners-curse"
 ---
 
-<link href="{{< relref "post/2020-12-04-winners-curse/index.en.html" >}}index.en_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="{{< relref "post/2020-12-04-winners-curse/index.en.html" >}}index.en_files/anchor-sections/anchor-sections.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
 <div id="that-fuzzy-feeling" class="section level2">
@@ -25,7 +24,7 @@ slug: "winners-curse"
 <p>Since we have omniscient control of this fake study, suppose the <em>true</em> effect of the medicine will on average lower the blood pressure by 2 mm Hg. So, in reality the treatment “works” even if the effect is small. In the real world the null hypothesis of no association should be rejected since we know the true effect of the treatment is different than the placebo. Crucially, suppose I won’t care that the children scream bloody murder half the time I try to measure the blood pressure (the joys of pediatrics) and will accept whatever readings I get. No one’s got time to try to convince a 2-year-old that blood pressure machines aren’t scary. I anticipate that the standard deviation will be rather large in both groups.</p>
 <p>Still in statistician god-mode, let’s suppose under these conditions with the sample size and the variability of the data, the standard error of the mean for this study will be 8 mm Hg.</p>
 <p>Now the central questions: given the true effect of 2 mm Hg and the study standard error of 8 mm Hg, how large of an effect will we need to estimate to reject the null hypothesis? Let’s look at the following figure to find out.</p>
-<p><img src="{{< relref "post/2020-12-04-winners-curse/index.en.html" >}}index.en_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>The black curve in the figure is the sampling distribution for the estimated difference in means between the placebo and treatment groups. This is the curve we would get if we ran the exact same study 10,000 times with different samples from the same population and calculated the average difference between the groups each time. Since we can’t do this is in real life, I simulated it on my computer. The true difference that we set is 2 mm Hg (blue line) and the standard error from the study is 8 mm Hg, which is why the curve is so spread out. Since the kids scream half the time the blood pressure is measured, the difference in means can vary from one simulation to the next. This is why some studies could give us a negative effect estimate (i.e. the treatment raises blood pressure) or why the size of the effect estimate could be much larger than 2 mm Hg. In fact, the shaded red region starting at 12 mm Hg represents the estimates at or greater than the 95th percentile of all possible estimates if the null hypothesis was true. This area represents “statistically significant” results and comprises 8% of possible studies. In other words, there is an 8%, or roughly 1 in 12, chance my study estimates an effect size in this region.</p>
 <p>Suppose I complete this study and get very excited because I got an average difference of 16 mm Hg (p = 0.04)! I’ll publish the finding straight away in the fanciest journal I can find. Why is this a problem? If we take an average difference of 16 mm Hg as the <em>effect size</em>, then it is 8 times larger than the real effect of 2 mm Hg and in reality this impressive looking finding is clinically meaningless! Lowering the blood pressure by 16 mm Hg for a 3 year old can be the difference between severe hypertension and a safe level, but lowering it by 2 mm Hg doesn’t mean much at all.</p>
 <p>This finding also won’t replicate on follow-up investigations. Or even worse it will replicate in a way that reifies the inflated estimates. Suppose 12 similar follow-up studies were done, then it’s likely 1 of the other 12 will also give “significant” findings of effect. It’s possible that, due to publication bias, only the two significant studies are published, or at least published in a journal of note. One can read the literature and then conclude that these two technically sound studies that each giving similar effect estimates must represent good evidence of meaningful effect!</p>
