@@ -17,26 +17,26 @@
 [[main]]
   name = "Global Health & Childhood Cancer"
   url = "ghcc/"
-  parent: "posts"
+  parent= "posts"
   weight = 20
   
 [[main]]
   name = "Data Science + Global Health"
   url = "ds_gh/"
   weight = 30
-  parent: "posts"
+  parent = "posts"
   
 [[main]]
   name = "Statistics & Heuristics"
   url = "statistics/"
   weight = 40
-  parent: "posts"
+  parent = "posts"
 
 [[main]]
   name = "Confident Uncertainty"
   url = "conf_unk/"
   weight = 50
-  parent: "posts"
+  parent = "posts"
 
 [[main]]
   name = "GHCC Podcast"
