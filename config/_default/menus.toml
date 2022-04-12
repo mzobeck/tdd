@@ -9,22 +9,22 @@
   weight = 10
 
 [[main]]
-  name = "Global PHO"
-  url = "global_pho/"
+  name = "Global Health & Childhood Cancer"
+  url = "ghcc/"
   weight = 20
   
 [[main]]
-  name = "Statistics"
-  url = "statistics/"
+  name = "Data Science + Global Health"
+  url = "ds_gh/"
   weight = 30
   
 [[main]]
-  name = "BBC"
-  url = "bbc/"
+  name = "Statistics & Heuristics"
+  url = "statistics/"
   weight = 40
 
 [[main]]
-  name = "Misc"
+  name = "Confident Uncertainty"
   url = "misc/"
   weight = 50
 
