@@ -4,14 +4,13 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Blog Posts"
-  url = "all_posts/"
+  name = "Blog"
   identifier = "posts"
   weight = 10
   
 [[main]]
   name = "All Posts"
-  url = "all_posts/all_posts"
+  url = "all_posts/"
   weight = 10
   parent = "posts"
 
