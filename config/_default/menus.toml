@@ -6,13 +6,11 @@
 [[main]]
   name = "Blog Posts"
   url = "all_posts/"
-# identifier: "posts"
   weight = 10
   
 [[main]]
   name = "All Posts"
   url = "all_posts/all_posts"
-#  parent: "posts"
   weight = 10
 
 #[[main]]
@@ -24,19 +22,16 @@
 [[main]]
   name = "Data Science + Global Health"
   url = "ds_gh/"
-#  parent: "posts"
   weight = 30
   
 [[main]]
   name = "Statistics & Heuristics"
   url = "statistics/"
-#  parent: "posts"
   weight = 40
 
 [[main]]
   name = "Confident Uncertainty"
   url = "conf_unk/"
-#  parent: "posts"
   weight = 50
 
 [[main]]
