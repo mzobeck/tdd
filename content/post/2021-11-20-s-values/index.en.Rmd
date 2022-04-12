@@ -3,7 +3,7 @@ title: "S-Values - Part 1"
 subtitle: "Calibrate your intuition about p-values"
 author: "Mark Zobeck"
 date: 2021-11-20
-categories: ["Stats"]
+categories: ["Statistics & Heuristics"]
 tags: ["Statistics", "Reading the literature", "Thinking tools"]
 slug: "s-values"
 bibliography: references.bib

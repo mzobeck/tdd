@@ -3,7 +3,7 @@ title: "The Winner's Curse"
 subtitle: "Losing while winning"
 author: "Mark Zobeck"
 date: 2020-12-04
-categories: ["Stats"]
+categories: ["Statistics & Heuristics"]
 tags: ["Statistics", "Reading the literature", "Thinking tools"]
 slug: "winners-curse"
 ---
