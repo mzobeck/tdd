@@ -4,6 +4,11 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
+  name = "Home"
+  url = "/"
+  weight = 5
+
+[[main]]
   name = "Blog"
   identifier = "posts"
   weight = 10
@@ -15,8 +20,8 @@
   parent = "posts"
 
 [[main]]
-  name = "Global Health & Childhood Cancer"
-  url = "ghcc/"
+  name = "Global Pediatric Hematology-Oncology"
+  url = "global_pho/"
   parent= "posts"
   weight = 20
   
