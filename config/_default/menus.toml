@@ -6,12 +6,14 @@
 [[main]]
   name = "Blog Posts"
   url = "all_posts/"
+  ifentifier = "posts"
   weight = 10
   
 [[main]]
   name = "All Posts"
   url = "all_posts/all_posts"
   weight = 10
+  parent = "posts"
 
 #[[main]]
 #  name = "Global Health & Childhood Cancer"
