@@ -6,7 +6,7 @@
 [[main]]
   name = "Blog Posts"
   url = "all_posts/"
-  ifentifier = "posts"
+  identifier = "posts"
   weight = 10
   
 [[main]]
