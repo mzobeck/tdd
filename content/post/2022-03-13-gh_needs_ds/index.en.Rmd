@@ -33,7 +33,7 @@ I'm using the term "Data Science" because it is flashy enough to catch your eye 
 
 Now, let me give you three reasons why Global Health needs Data Science (and one reason why it's so hard to do well).
 
-## 1. Efficient health organization operations save lives
+## **1. Efficient health organization operations save lives**
 
 In resource-constrained settings, every resource needs to be used well.
 
@@ -41,7 +41,7 @@ Healthcare providers need to use their knowledge to care for the patients that m
 
 Data science gives organizations the capabilities to use resources well. Many data scientists work in companies where their primary job is to perform an alchemical transformation of data into efficient operational insights using the magic of math. In companies, this translates to increased profits. In global health, this translates to saved lives.
 
-## 2. Learning health systems accelerate progress
+## **2. Learning health systems accelerate progress**
 
 To improve health outcomes, it is key to have a system where healthcare providers, administrators, and others are equipped with the tools and knowledge required to learn about what is not going well and conduct improvement projects to change it
 
@@ -49,17 +49,17 @@ Unfortunately, this sounds good on paper but is very difficult to do. The realit
 
 Data Science can help push projects forward even in systems that resist change. Data Science provides the tools to efficiently collect data, accurately measure what matters, and effectively communicate it to people who need to know. These advantages are even more important in resource-constrained settings where time and organizational support are forever in short supply.
 
-## 3. Healthcare is an unstable complex adaptive system
+## **3. Healthcare is an unstable complex adaptive system**
 
 There is nothing linear or simple about working in healthcare. The provision of care is complex because it requires many people with specialized knowledge to work together in a system that has the physical infrastructure they need. Treatment is nonlinear because health status can change rapidly or in unexpected ways and providers need to be able to respond accordingly. Improving health systems is difficult because any small perturbation of the system may result in no change at all or in large, unexpected, and sometimes harmful changes.
 
 The best way to make decisions in a complex environment is to probe the system (induce small changes), sense the changing state of the system, and then respond to the changes. To do this, decision-makers need the tools to probe-sense-respond efficiently. Data Science equips organizations with tools needed to create this signal network.
 
-## Data Science capabilities (and Data Scientists) take a lot of care and feeding
+## **Data Science capabilities (and Data Scientists) take a lot of care and feeding**
 
 The reason why high-caliber Data Science is not available in many global health organizations is that it takes a lot of time, money, and investment from leadership to make it successful. Collecting clean data (especially if there is no EMR available) is incredibly hard. Assuring the accuracy of the data is even harder. As data are stored over time, people's trust in the data wanes because their knowledge of its nuances decays. Data analyses are often done poorly because the devil is in the details. While people pay lip service to the importance of statistics, few have the patience or fortitude to engage the epistemic rodeo that is wrangling and taming uncertainty from observational data. And...machine learning isn't very useful in Global Health right now. Sorry to be the bearer of bad news.
 
-## Data Science + Global Health
+## **Data Science + Global Health**
 
 Although it is hard, Data Science can be done well in Global Health. With time, effort, and the right perspective, Global Health organizations can reap the incredible rewards from careful data management and thoughtful analytics.
 
