@@ -1,0 +1,30 @@
+---
+title: "Aristotle's sage advice to improve Data Science in Global Health"
+author: "Mark Zobeck"
+date: 2022-03-19
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "aristotle-and-data-science"
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>Aristotle</strong>, the legendary Greek philosopher, has some advice for anyone trying to use data science in global health.</p>
+<blockquote>
+<p><strong>It is the mark of an educated mind to rest satisfied with the degree of precision which the nature of the subject admits and not to seek exactness where only an approximation is possible.</strong></p>
+</blockquote>
+<p>Here are 3 reasons why this quote is so insightful.</p>
+<div id="reason-1.-the-nature-of-your-subject-determines-how-precisely-you-can-analyze-it" class="section level2">
+<h2><strong>Reason 1. The nature of your subject determines how precisely you can analyze it</strong></h2>
+<p>Healthcare delivery in general, and in global health in particular, is hard to measure precisely. If you’ve ever tried to conduct a quality improvement project, you know what I mean. The project starts off trying to improve a health outcome (e.g. “improve asthma control”), but health states are never easily captured and instead a process measure is used (“improved inhaler adherence to improve asthma control”). The further away what you want to measure is from what you can measure, the more imprecise you will be. By itself, this imprecision doesn’t prevent good analyses, but good analyses can only be done if you understand this problem.</p>
+</div>
+<div id="reason-2.-design-analysis-to-accommodate-imprecision" class="section level2">
+<h2><strong>Reason 2. Design analysis to accommodate imprecision</strong></h2>
+<p>Imprecision is the rule and not the exception, but there are things you can do to combat it. Measure variables as continuously as possible because more information is contained in continuous variables (continuous &gt; ordinal &gt; binary). Make sure you have enough observations to have any hope of answering the question. Learn about “directed acyclic graphs” and use them to identify which variables you need to reduce confounding and increase the precision of your analysis. These will help to maximize both the accuracy and precision of your analysis.</p>
+</div>
+<div id="reason-3.-dont-overfit-your-insights-to-the-imprecise-data" class="section level2">
+<h2><strong>Reason 3. Don’t overfit your insights to the imprecise data</strong></h2>
+<p>Overfitting is a major problem to avoid not only when developing statistical models, but also with any analysis of imprecise data. For example, a systolic blood pressure in a 2-year-old child may be measured as 140 (super high), but a wise doctor does not react urgently to it because 2-year-olds often scream like the world is ending when the blood pressure cuff squeezes their arm. The wise doctor will understand the context (was the child screaming?) and gather more data (retake the blood pressure when the kid is calm). If the doctor had immediately given medicine to reduce the blood pressure, she would have overfit her response to the data. The same is true for many analyses in global health. The data will be noisy, tune your insights and actions accordingly.</p>
+<p>Aristotle may have lived in 350 BC, but his ancient wisdom can inform data science practice today. His insight has endured through the ages because it makes a fundamental point about how we learn from data in the presence of uncertainty. Anyone engaged in learning from data would do well to listen.</p>
+</div>

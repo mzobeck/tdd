@@ -1,0 +1,43 @@
+---
+title: "How to walk the unsexy path toward sophisticated Data Science in Global Health: Data Management"
+subtitle: "Data management is not sexy, but it's unbelievably important and worth the effort."
+author: "Mark Zobeck"
+date: 2022-03-18
+categories: ["Data Science + Global Health"]
+tags: ["Data science"]
+slug: "unsexy-data-management"
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>Data science has a data problem.</strong></p>
+<p>In my last essay, I argued that because data management is boring, hard to do well, and just not sexy compared to the rest of data science, garbage data is a big problem in global health.</p>
+<p>The good news is that with a little effort your organization can collect beautiful, high-quality data! Here are 5 steps to design an optimal system for low-resource settings, where data are manually collected from paper charts by limited numbers of people.</p>
+<div id="step-1-identify-the-key-questions-your-data-need-to-answer" class="section level3">
+<h3>Step 1: Identify the key questions your data need to answer</h3>
+<p>Questions are the shining light at the end of the data management path. They should guide you every step of the way. Let the questions come from the people who will use your insights. Talk to your leadership, healthcare providers, program staff, and even patients. Even if you only answer one question, if it is valuable enough to the organization then the cost required to answer it will be worth its weight in gold. Find the right question to answer.</p>
+</div>
+<div id="step-2-develop-a-framework-to-understand-how-to-answer-the-question" class="section level3">
+<h3>Step 2: Develop a framework to understand how to answer the question</h3>
+<p>Your team needs to understand the various factors that influence the question you are trying to answer. There are several types of frameworks that can be helpful. Google “conceptual framework for monitoring and evaluation”, “results framework”, or “logic models” to learn more. Content experts should be intimately involved in the construction of the framework.</p>
+</div>
+<div id="step-3---key-step-select-the-right-variables-to-answer-the-question" class="section level3">
+<h3>Step 3 - KEY STEP!: Select the right variables to answer the question</h3>
+<p>This step is crucial for your success. From the framework, you should understand which variables will be important to answer the question. If you have limited resources to collect data, then you need to be extremely choosy about which variables to collect. Here are four points of advice for variable choice:</p>
+<ul>
+<li><p>Keep the variables per patient limited. An extremely rough guestimate is 20-30 data points per patient x 15 patients per week is probably the max for one person, although this can vary widely depending on the complexity of the data, how well the data are stored in the chart, and how easy the data are to enter into your database.</p></li>
+<li><p>Choose high signal, low noise variables. Dates are great. Easy to define, low measurement error, and chock full of information so that they can be combined in a lot of ways to give precise time spans. Things that are easy to identify and count are also nice (new cancer patients, easy to count; number of new pneumonia diagnoses each week, hard to count).</p></li>
+<li><p>Find the right level of specificity. If your data are too high level, they won’t give a useful answer to your question. If they are too granular, the complexity will grind down the quality over time unless you have a lot of help. It is better to have a few accurate data points than a lot of garbage.</p></li>
+<li><p>Beware dynamic variables. Variables that change over time are a different animal to collect than variables you can collect once and store forever. Patient outcomes are a necessary dynamic variable that is worth collecting. Collect more at your own risk.</p></li>
+</ul>
+</div>
+<div id="step-4-make-a-data-dictionary-and-share-it-widely" class="section level3">
+<h3>Step 4: Make a data dictionary and share it widely</h3>
+<p>As precisely as you are able, define each variable. This is important especially when nonclinical personnel are collecting data. Precise definitions cut down on measurement error, which will make your analyses more accurate and precise. Provide standard answer choices as much as possible. Enforce a data convention. I recommend YYYY-MM-DD for all dates.</p>
+</div>
+<div id="step-5-create-a-database.-avoid-spreadsheets." class="section level3">
+<h3>Step 5: Create a database. Avoid spreadsheets.</h3>
+<p>Spreadsheets always seem like a good idea at first, but they have too many degrees of freedom and are highly likely to mutate over a year or two of use. Investigate Microsoft Access, REDCap, or DHIS2 to see if they meet your needs. The latter two are free and amazing. There are other software solutions out there as well. Make sure you have API access (your future sophisticated data science self will thank you). It is worth your time and effort to learn to use one and integrate it into your organization’s operations.</p>
+<p>Each of these steps are powerful and incredibly effective in isolation, but together they will produce beautiful, high-quality data that will answer many questions to improve the care you provide to your patients.</p>
+</div>
