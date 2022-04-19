@@ -31,17 +31,20 @@
   weight = 30
   parent = "posts"
   
-[[main]]
-  name = "Statistical Parables"
-  url = "statistics/"
-  weight = 40
-  parent = "posts"
-
+  
 [[main]]
   name = "Confident Uncertainty"
   url = "conf_unk/"
+  weight = 40
+  parent = "posts"
+  
+[[main]]
+  name = "Statistical Parables"
+  url = "statistics/"
   weight = 50
   parent = "posts"
+
+
 
 [[main]]
   name = "GHCC Podcast"
