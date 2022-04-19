@@ -1,0 +1,41 @@
+---
+title: "How to measure anything in Global Health: 5. Calibration techniques"
+subtitle: "Calibrate because you care!"
+author: "Mark Zobeck"
+date: 2022-04-06
+categories: ["Data Science + Global Health"]
+tags: ["HTMA-GH"]
+slug: "htma-5-calibration-techniques"
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>In my previous essay, I discussed how calibrating your judgments is a crucial step when measuring anything in global health.</p>
+<p>For instance, if you want to estimate the likelihood a new cancer treatment causes severe side effects, then a calibrated estimator can offer a 90% uncertainty interval about a plausible range of side effect rates as a starting place for measurement.</p>
+<p>Although it is essential in the measurement process, calibration can be a tricky state to achieve.</p>
+<div id="here-are-5-recommendations-for-how-to-achieve-calibration-with-your-judgment." class="section level2">
+<h2><strong>Here are 5 recommendations for how to achieve calibration with your judgment.</strong></h2>
+<p>This material comes from Douglas Hubbards marvelous book, <em>How to Measure Anything</em>. I recommend you read the book if these posts interest you. You will find much more thorough explanations of these concepts there.</p>
+<div id="the-equivalent-bet-test" class="section level3">
+<h3><strong>1. The equivalent bet test</strong></h3>
+<p>Ask yourself, would you rather accept a bet to win $1000 if the true value falls in your uncertainty interval or accept a bet to spin a roulette wheel with a wedge of 10% of its area where you win nothing and 90% of its area where you win $1000. If you are calibrated, you should be indifferent between these bets. If you prefer your uncertainty interval, you’re overconfident. If you prefer the wheel, you’re underconfident.</p>
+</div>
+<div id="the-premortem-test" class="section level3">
+<h3><strong>2. The premortem test</strong></h3>
+<p>Explain what would be wrong with your interval if the true value turns out to be outside your interval. If you can come up with a plausible failure mode, then perhaps your interval is too narrow.</p>
+</div>
+<div id="test-the-limits" class="section level3">
+<h3><strong>3. Test the limits</strong></h3>
+<p>Exam the lower limit, then the upper limit of the interval. For a 90% interval, 95% of the plausible values should be above the lower limit. Does your limit reflect that estimate? Then move to the upper limit and assess it its plausible that 95% of values are below that limit. This helps to avoid anchoring bias, something I found myself susceptible to as I started exploring calibration.</p>
+</div>
+<div id="the-absurdity-test" class="section level3">
+<h3><strong>4. The absurdity test</strong></h3>
+<p>Start with an absurdly wide range and progressively narrow it, explaining why it can’t be that wide along the way. This test helps to locate the edge of our knowledge about the estimate by eliminating things that are obviously not correct.</p>
+</div>
+<div id="repetition-and-feedback" class="section level3">
+<h3><strong>5. Repetition and feedback</strong></h3>
+<p>Go to the <a href="https://www.howtomeasureanything.com/3rd-edition/">HTMA website</a> and download the calibration tests to take, or make up your own questions, estimate the answers, and grade them. Calibration is not a skill that comes naturally to most people, but is a skill that must be practiced. There’s <a href="https://www.journals.uchicago.edu/doi/full/10.1093/reep/rex022#_i30">a large body of literature on the topic you can also reference</a>, something I was unfamiliar with until recently.</p>
+<p>It takes a little time and effort, but soon you can calibrate your judgment to measure anything in global health that will improve the care you provide to your patients!</p>
+</div>
+</div>
