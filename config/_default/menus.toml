@@ -32,7 +32,7 @@
   parent = "posts"
   
 [[main]]
-  name = "Statistics & Heuristics"
+  name = "Statistical Parables"
   url = "statistics/"
   weight = 40
   parent = "posts"
