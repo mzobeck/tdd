@@ -2,7 +2,7 @@
 title: "How to measure anything in Global Health: 5. Calibration techniques"
 subtitle: "Calibrate because you care!"
 author: "Mark Zobeck"
-date: 2022-04-06
+date: 2022-04-07
 categories: ["Data Science + Global Health"]
 tags: ["HTMA-GH"]
 slug: "htma-5-calibration-techniques"
@@ -25,7 +25,7 @@ theme_set(theme_clean() +
 
 ```
 
-In my previous essay, I discussed how calibrating your judgments is a crucial step when measuring anything in global health.
+[In my previous essay](https://www.thedoctorsdialectic.com/2022/04/06/htma-4-calibrate-your-judgement/), I discussed how calibrating your judgments is a crucial step when measuring anything in global health.
 
 For instance, if you want to estimate the likelihood a new cancer treatment causes severe side effects, then a calibrated estimator can offer a 90% uncertainty interval about a plausible range of side effect rates as a starting place for measurement.
 
