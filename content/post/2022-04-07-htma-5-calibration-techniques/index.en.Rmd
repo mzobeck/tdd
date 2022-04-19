@@ -37,7 +37,7 @@ This material comes from Douglas Hubbards marvelous book, *How to Measure Anythi
 
 ### **1. The equivalent bet test**
 
-Ask yourself, would you rather accept a bet to win \$1000 if the true value falls in your uncertainty interval or accept a bet to spin a roulette wheel with a wedge of 10% of its area where you win nothing and 90% of its area where you win \$1000. If you are calibrated, you should be indifferent between these bets. If you prefer your uncertainty interval, you're overconfident. If you prefer the wheel, you're underconfident.
+Ask yourself, would you rather accept a bet to win `$1000` if the true value falls in your uncertainty interval or accept a bet to spin a roulette wheel with a wedge of 10% of its area where you win nothing and 90% of its area where you win `$1000`. If you are calibrated, you should be indifferent between these bets. If you prefer your uncertainty interval, you're overconfident. If you prefer the wheel, you're underconfident.
 
 ### **2. The premortem test**
 
