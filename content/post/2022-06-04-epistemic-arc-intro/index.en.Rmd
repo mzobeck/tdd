@@ -43,9 +43,9 @@ I recently [purchased and watched](https://hbiostat.regfox.com/rms2022-video-cou
 
 I was struck by the elegance of his framework. It concisely summarizes the steps in the learning process and identifies the many danger zones that can ruin your learning ([click here to read more from Drew Levy's website](https://sites.google.com/dogoodscience.com/home)). It functions as a great conceptual roadmap for how to reliably learn from data while avoiding analytical shenanigans
 
-In this post, I will introduce and expand the framework to explain how it provides a unified roadmap for learning from data. This framework is flexible and applies just as well to observational epidemiological studies as to randomized trials, physical experiments, any other branch of science, and even in our daily lives.
+In this post, I will adapt and expand the framework to explain how it provides a unified roadmap for learning from data. This framework is flexible and applies just as well to observational epidemiological studies as to randomized trials, physical experiments, any other branch of science, and even in our daily lives.
 
-This will be a high level overview. In In future posts, I will explore specific danger zones in more detail. Beyond organizing important statistical principals, this framework has important philosophical and psychological consequences. I also aspire to explore theses areas more in future posts.
+This will be a high level overview. In future posts, I will explore specific danger zones in more detail. Beyond organizing important statistical principals, this framework has important philosophical and psychological consequences. I also aspire to explore theses areas more in future posts.
 
 ## The Epistemic Arc
 
@@ -53,9 +53,9 @@ This will be a high level overview. In In future posts, I will explore specific 
 
 The above figure depicts the **Epistemic Arc**, which describes the process that anyone must follow when learning from data in the presence of uncertainty.
 
-The first thing to highlight is that there is a main character to this story: **you**. You are the hero or heroine of this epistemic adventure! You are a player on the statistical stage. You are an inseparable part of the learning process. You are the **Learner**.
+The first highlight is that there is a main character to this story: **you**. You are the hero or heroine of this epistemic adventure! You are a player on the statistical stage. You are an inseparable part of the learning process. You are the **Learner**.
 
-Each box represents a specific **object** that is required for the learning process (a noun). Each arrow depicts a **step** that must be performed to move from one object to the next (a verb). Let's zoom in on each step to define the objects involved in the step and the actions performed during it.
+Each box represents a specific **object** that is required for the learning process (a noun). Each arrow depicts a **step** that must be performed to move from one object to the next (a verb). Let's zoom in on each step to define the objects involved and the actions performed during it.
 
 ### Step 1. Nature -> Population
 
@@ -85,7 +85,7 @@ Each box represents a specific **object** that is required for the learning proc
 
 #### Definitions
 
-**Step 2:** The process of *identifying* (no data collection yet) a sample that can be further scrutinized and *designing* a process that can deliver appropriate inferences about the population from the data collected from the sample.
+**Step 2:** The process of *identifying* (no data collection yet) a sample that can be further scrutinized and *designing* a process that can deliver appropriate inferences about the population or the natural process that generates it from the data collected from the sample.
 
 **Sample** (noun): A subset of the population or a toy model of the system. These are the members of the population for whom the Leaner has the ability to collect data and directly learn from.
 
@@ -93,7 +93,7 @@ Each box represents a specific **object** that is required for the learning proc
 
 **Goal:** The goal is for the Learner to identify what sample will generate data that is most informative for the questions and then to design the process to learn from the data in a way that will account fo the limitations of using an imperfect sample to learn about a (possibly theoretical) population. In science, this is study design - e.g. does the Learner need to conduct an RCT, case-control study, cross-sectional study, etc.
 
-**Caution:** *Randomness* plays a big role in in our ability to learn about our population of interest from the sample. A *random* sample from the population as in a survey or a sample that is *randomized* to a treatment as in a randomized clinical trial helps to ensure the sample is reflective of the population. Often randomness cannot be ensured at the level of the sample. In this case, study design and methods of causal inference help to make the sample reflects the population well enough to answer our question.
+**Caution:** *Randomness* plays a big role in in our ability to learn about our population of interest from the sample. A *random* sample from the population as in a survey helps to ensure the sample is reflective of the population. A sample that is *randomized* to a treatment as in a randomized clinical trial helps to ensure what we learn about the causal process we are studying. Often randomness cannot be ensured at the level of the sample. In this case, study design and methods of causal inference help to make the sample reflects the population well enough to answer our question.
 
 **Caution 2:** Confusing terminology - to sample (verb) is one method of obtaining a sample (noun), but that's only one way. Sometimes your sample is given to you, such as obtaining all medical records for a given disease from an electronic medical record. In this case you have a sample, a subset of a larger population (all patients with the disease), but you didn't *sample* the population for it.
 
@@ -153,7 +153,7 @@ Each box represents a specific **object** that is required for the learning proc
 
 **Caution:** This is where technical statistical and mathematical considerations dominate. Whole PhD theses are written over very specific technical details in this step. Let the Learner be careful and seek appropriate technical support.
 
-**Beware:** Due to the technical nature of this step, many sneaky risks lurk here. Model assumptions, model specification, and model selection refer to the process of developing statistical models that reflect in math the most important concepts required to answer the question. The [bias-variance](https://www.youtube.com/watch?v=EuBBz3bI-aA&vl=en) tradeoff is an important decision about how flexible a model should be to reflect the observed data. P-hacking and [researchers degrees of freedom](https://www.americanscientist.org/article/the-statistical-crisis-in-science)/[garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) are all non-mathematical methods of massaging the data (intentionally or unintentionally) to get an interesting or publishable result ([here is a blog post that discusses many of the preceeding points](https://www.fharrell.com/post/improve-research/)). Also this is where you can *induce* bias by adding variables into your analysis, called [*collider bias*](https://jamanetwork.com/journals/jama/fullarticle/2790247#:~:text=Collider%20bias%20occurs%20when%20an,that%20is%20not%20controlled%20for.)([are you frightened?](https://getyarn.io/yarn-clip/ba49f8a3-0945-4a7b-b991-ca652b72a921/gif)). Analysis workflows (Bayesian workflows [here](https://arxiv.org/abs/2011.01808), and [here](https://www.nature.com/articles/s43586-020-00001-2.pdf), [RMS worfklow](https://hbiostat.org/doc/rms.pdf) - chapter 4, particularly 4.12) can help guide you safely through this treacherous valley of death and deceit.
+**Beware:** Due to the technical nature of this step, many sneaky risks lurk here. Model assumptions, model specification, and model selection refer to the process of developing statistical models that reflect in math the most important concepts required to answer the question. The [bias-variance](https://www.youtube.com/watch?v=EuBBz3bI-aA&vl=en) trade off is an important decision about how flexible a model should be to reflect the observed data. P-hacking and [researchers degrees of freedom](https://www.americanscientist.org/article/the-statistical-crisis-in-science)/[garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) are all non-mathematical methods of massaging the data (intentionally or unintentionally) to get an interesting or publishable result ([here is a blog post that discusses many of the preceding points](https://www.fharrell.com/post/improve-research/)). Also this is where you can *induce* bias by adding variables into your analysis, called [*collider bias*](https://jamanetwork.com/journals/jama/fullarticle/2790247#:~:text=Collider%20bias%20occurs%20when%20an,that%20is%20not%20controlled%20for.)([are you frightened?](https://getyarn.io/yarn-clip/ba49f8a3-0945-4a7b-b991-ca652b72a921/gif)). Analysis workflows (Bayesian workflows [here](https://arxiv.org/abs/2011.01808), and [here](https://www.nature.com/articles/s43586-020-00001-2.pdf), [RMS workflow](https://hbiostat.org/doc/rms.pdf) - chapter 4, particularly 4.12 - and [here](http://hbiostat.org/rflow/)) can help guide you safely through this treacherous valley of death and deceit.
 
 ### Step 6. Inference -> Decision
 
